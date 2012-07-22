@@ -135,7 +135,7 @@
             <statadd type="Class" Level="1" value="1" statlink="Fortitude Defense Class Bonus" charelem="3" />
          </Stat>
 
-         <Stat value="16" >
+         <Stat value="15" >
             <alias name="Reflex Defense" />
             <alias name="Reflex" />
             <statadd Level="1" value="10" charelem="3" />
@@ -146,7 +146,7 @@
             <statadd Level="1" requires="!Armor Proficiency (Cloth)" value="-2" charelem="4" />
          </Stat>
 
-         <Stat value="13" >
+         <Stat value="12" >
             <alias name="Will Defense" />
             <alias name="Will" />
             <statadd Level="1" value="10" charelem="3" />
@@ -597,8 +597,7 @@
          </RulesElement>
          <RulesElement name="Acrobatics" type="Skill" internal-id="ID_FMP_SKILL_1" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=1" charelem="17" legality="rules-legal" >
             <specific name="Key Ability" > Dexterity </specific>
-         Creatures typically use the Acrobatics skill to maintain their balance while walking on narrow or unstable surfaces, to slip free of a grab or restraints, and to take less damage from a fall.
-	Moving across a surface that is slippery doesn&apos;t usually require an Acrobatics check; that surface is instead treated as difficult terrain. If a surface is extremely slippery, the DM might require an Acrobatics check to cross it.
+         Creatures typically use the Acrobatics skill to maintain their balance while walking on narrow or unstable surfaces, to slip free of a grab or restraints, and to take less damage from a fall.	Moving across a surface that is slippery doesn&apos;t usually require an Acrobatics check; that surface is instead treated as difficult terrain. If a surface is extremely slippery, the DM might require an Acrobatics check to cross it.
          </RulesElement>
          <RulesElement name="Arcana" type="Skill" internal-id="ID_FMP_SKILL_2" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=2" charelem="18" legality="rules-legal" >
             <specific name="Key Ability" > Intelligence </specific>
@@ -614,13 +613,11 @@
          </RulesElement>
          <RulesElement name="Dungeoneering" type="Skill" internal-id="ID_FMP_SKILL_7" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=7" charelem="21" legality="rules-legal" >
             <specific name="Key Ability" > Wisdom </specific>
-         The Dungeoneering skill represents knowledge and skills related to dungeon exploration, including finding one&apos;s way through underground complexes, navigating winding caverns, recognizing subterranean hazards, and foraging for food in the Underdark.
-	Training in this skill represents formalized study or extensive experience. Those that have training in the skill can also identify creatures of the Far Realm.
+         The Dungeoneering skill represents knowledge and skills related to dungeon exploration, including finding one&apos;s way through underground complexes, navigating winding caverns, recognizing subterranean hazards, and foraging for food in the Underdark.	Training in this skill represents formalized study or extensive experience. Those that have training in the skill can also identify creatures of the Far Realm.
          </RulesElement>
          <RulesElement name="Endurance" type="Skill" internal-id="ID_FMP_SKILL_8" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=8" charelem="22" legality="rules-legal" >
             <specific name="Key Ability" > Constitution </specific>
-         The Endurance skill is used to stave off ill effects and to push beyond normal physical limits. A creature that has training in Endurance can hold its breath for long periods of time, forestall the debilitating effects of hunger and thirst, and swim or tread water for extended periods. Some hazards—including extreme temperatures, violent weather, and diseases—require creatures to make Endurance checks to resist or delay debilitating effects.
-	Characters rarely use Endurance actively; the DM directs players to use it in response to certain hazards. Using the skill in that way requires no action, unless otherwise noted. See “Environmental Dangers” and “Disease” for some of the situations that require Endurance checks.
+         The Endurance skill is used to stave off ill effects and to push beyond normal physical limits. A creature that has training in Endurance can hold its breath for long periods of time, forestall the debilitating effects of hunger and thirst, and swim or tread water for extended periods. Some hazards—including extreme temperatures, violent weather, and diseases—require creatures to make Endurance checks to resist or delay debilitating effects.	Characters rarely use Endurance actively; the DM directs players to use it in response to certain hazards. Using the skill in that way requires no action, unless otherwise noted. See “Environmental Dangers” and “Disease” for some of the situations that require Endurance checks.
          </RulesElement>
          <RulesElement name="Heal" type="Skill" internal-id="ID_FMP_SKILL_9" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=9" charelem="23" legality="rules-legal" >
             <specific name="Key Ability" > Wisdom </specific>
@@ -628,15 +625,11 @@
          </RulesElement>
          <RulesElement name="History" type="Skill" internal-id="ID_FMP_SKILL_11" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=11" charelem="24" legality="rules-legal" >
             <specific name="Key Ability" > Intelligence </specific>
-         The History skill encompasses knowledge related to the history of a region and beyond, including the chronological record of significant events and an explanation of their causes. This knowledge includes information pertaining to royalty and other leaders, wars, legends, important personalities, laws, customs, traditions, and memorable events.
-	Training in this skill represents academic study, either formalized or as a hobby. Those that have training in the skill are likely to know esoteric historical information.
-	Make a History check to remember a relevant piece of historical lore or to recognize a historical clue (see “Knowledge Checks”).
+         The History skill encompasses knowledge related to the history of a region and beyond, including the chronological record of significant events and an explanation of their causes. This knowledge includes information pertaining to royalty and other leaders, wars, legends, important personalities, laws, customs, traditions, and memorable events.	Training in this skill represents academic study, either formalized or as a hobby. Those that have training in the skill are likely to know esoteric historical information.	Make a History check to remember a relevant piece of historical lore or to recognize a historical clue (see “Knowledge Checks”).
          </RulesElement>
          <RulesElement name="Insight" type="Skill" internal-id="ID_FMP_SKILL_13" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=13" charelem="25" legality="rules-legal" >
             <specific name="Key Ability" > Wisdom </specific>
-         The Insight skill is used to discern intent and decipher body language during social interactions. Characters use the skill to comprehend motives, to read between the lines, to get a sense of moods and attitudes, and to determine how truthful someone is being. (Monsters rarely use Insight.)
-	Insight is used to oppose Bluff checks and as the social counterpart to the Perception skill. The skill can also be used to gain clues, to figure out how well a social situation is going, and to determine if someone is under the influence of an outside force.
-	When a creature uses Insight, it is making a best guess about another creature&apos;s motives and truthfulness. Insight is not an exact science or a supernatural power; it represents the ability to get a sense of how a person is behaving.
+         The Insight skill is used to discern intent and decipher body language during social interactions. Characters use the skill to comprehend motives, to read between the lines, to get a sense of moods and attitudes, and to determine how truthful someone is being. (Monsters rarely use Insight.)	Insight is used to oppose Bluff checks and as the social counterpart to the Perception skill. The skill can also be used to gain clues, to figure out how well a social situation is going, and to determine if someone is under the influence of an outside force.	When a creature uses Insight, it is making a best guess about another creature&apos;s motives and truthfulness. Insight is not an exact science or a supernatural power; it represents the ability to get a sense of how a person is behaving.
          </RulesElement>
          <RulesElement name="Intimidate" type="Skill" internal-id="ID_FMP_SKILL_14" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=14" charelem="26" legality="rules-legal" >
             <specific name="Key Ability" > Charisma </specific>
@@ -644,18 +637,15 @@
          </RulesElement>
          <RulesElement name="Nature" type="Skill" internal-id="ID_FMP_SKILL_16" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=16" charelem="27" legality="rules-legal" >
             <specific name="Key Ability" > Wisdom </specific>
-         The Nature skill encompasses knowledge and skills related to nature, including finding ways through wilderness, recognizing natural hazards, dealing with and identifying natural creatures, and living off the land. 
-	Training in this skill represents formalized study or extensive experience. Those that have training in the skill are likely to know esoteric information in the field of study.
+         The Nature skill encompasses knowledge and skills related to nature, including finding ways through wilderness, recognizing natural hazards, dealing with and identifying natural creatures, and living off the land. 	Training in this skill represents formalized study or extensive experience. Those that have training in the skill are likely to know esoteric information in the field of study.
          </RulesElement>
          <RulesElement name="Perception" type="Skill" internal-id="ID_FMP_SKILL_17" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=17" charelem="28" legality="rules-legal" >
             <specific name="Key Ability" > Wisdom </specific>
-         The Perception skill encompasses perceiving things, most often by sight or sound. Make a Perception check to notice a clue, detect a secret door, find a trap, follow tracks, listen for sounds behind a closed door, or locate a hidden object.
-	In most situations, the DM uses passive Perception to determine if a creature notices things. A creature that has fallen asleep naturally (as opposed to being knocked unconscious by a power or other effect) is unconscious, but not totally deprived of awareness; it can use its passive Perception to hear things, but with a -5 penalty.
+         The Perception skill encompasses perceiving things, most often by sight or sound. Make a Perception check to notice a clue, detect a secret door, find a trap, follow tracks, listen for sounds behind a closed door, or locate a hidden object.	In most situations, the DM uses passive Perception to determine if a creature notices things. A creature that has fallen asleep naturally (as opposed to being knocked unconscious by a power or other effect) is unconscious, but not totally deprived of awareness; it can use its passive Perception to hear things, but with a -5 penalty.
          </RulesElement>
          <RulesElement name="Religion" type="Skill" internal-id="ID_FMP_SKILL_18" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=18" charelem="29" legality="rules-legal" >
             <specific name="Key Ability" > Intelligence </specific>
-         The Religion skill encompasses knowledge about gods, sacred writings, religious ceremonies, holy symbols, and theology. This knowledge extends to information about the undead and about the Astral Sea, including the creatures of that plane.
-	Training in this skill represents academic study, either formalized or as a hobby. Those that have training in the skill are likely to know esoteric information in the field of study.
+         The Religion skill encompasses knowledge about gods, sacred writings, religious ceremonies, holy symbols, and theology. This knowledge extends to information about the undead and about the Astral Sea, including the creatures of that plane.	Training in this skill represents academic study, either formalized or as a hobby. Those that have training in the skill are likely to know esoteric information in the field of study.
          </RulesElement>
          <RulesElement name="Stealth" type="Skill" internal-id="ID_FMP_SKILL_20" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=20" charelem="30" legality="rules-legal" >
             <specific name="Key Ability" > Dexterity </specific>
@@ -663,13 +653,11 @@
          </RulesElement>
          <RulesElement name="Streetwise" type="Skill" internal-id="ID_FMP_SKILL_21" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=21" charelem="31" legality="rules-legal" >
             <specific name="Key Ability" > Charisma </specific>
-         The Streetwise skill encompasses knowledge of the ins and outs of life in a settlement (a village, a town, or a city), whether on its main streets or in its back alleys. This knowledge is gleaned from talking to people and observing them as they go about their lives, rather than from studying tomes or maps. A character who has training in this skill is especially adept at getting information out of people living in settlements.
-	When in a settlement, make a Streetwise check to find out what&apos;s going on, who the movers and shakers are, where to get the best deals, and where the dangers are.
+         The Streetwise skill encompasses knowledge of the ins and outs of life in a settlement (a village, a town, or a city), whether on its main streets or in its back alleys. This knowledge is gleaned from talking to people and observing them as they go about their lives, rather than from studying tomes or maps. A character who has training in this skill is especially adept at getting information out of people living in settlements.	When in a settlement, make a Streetwise check to find out what&apos;s going on, who the movers and shakers are, where to get the best deals, and where the dangers are.
          </RulesElement>
          <RulesElement name="Thievery" type="Skill" internal-id="ID_FMP_SKILL_23" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=23" charelem="32" legality="rules-legal" >
             <specific name="Key Ability" > Dexterity </specific>
-         The Thievery skill encompasses various abilities that require nerves of steel and a steady hand: disabling traps, opening locks, picking pockets, and sleight of hand.
-	The DM might decide that some uses of this skill are so specialized that a creature is required to have training in Thievery to have a chance of succeeding.
+         The Thievery skill encompasses various abilities that require nerves of steel and a steady hand: disabling traps, opening locks, picking pockets, and sleight of hand.	The DM might decide that some uses of this skill are so specialized that a creature is required to have training in Thievery to have a chance of succeeding.
          </RulesElement>
          <RulesElement name="Athletics" type="Skill" internal-id="ID_FMP_SKILL_27" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=27" charelem="33" legality="rules-legal" >
             <specific name="Key Ability" > Strength </specific>
@@ -722,13 +710,8 @@
             <specific name="Size" > Medium </specific>
             <specific name="Speed" > 7 squares </specific>
             <specific name="Characteristics" > Agile, friendly, intuitive, joyful, perceptive, quick, quiet, wild </specific>
-            <specific name="Physical Qualities" > Elves are slender, athletic folk about as tall as humans. They have the same range of complexions as humans, tending more toward tan or brown hues. A typical elf &apos;s hair color is dark brown, autumn orange, mossy green, or deep gold. Elven ears are long and pointed, while an elf &apos;s eyes are vibrant blue, violet, or green. Elves favor a wild and loose look to their hair.
-	Elves mature at about the same rate as humans, but they show few effects of age past adulthood. The first sign of an elf &apos;s advancing age is typically a change in hair color—sometimes graying but usually darkening or taking on more autumnal hues. Most elves live to be well over two hundred years old and remain vigorous almost to the end. </specific>
-            <specific name="Playing" > When creating an elf adventurer, here are a few points to consider.
-	Protect all that is good and beautiful. The natural progression of the universe seems intent on destroying the fleeting grace of beauty, love, and peace. Thus, you must fight to ensure that these things survive. An elf might remain unmoved by the plight of a human city facing an orc invasion, even as an idyllic village of farmers in the horde&apos;s path spurs him to action. Elves appreciate beauty because their history has forced them to watch it gradually fade from the world. From the first days of the bitter fey war, through the rise and fall of a succession of worldly empires, the elves know all too well that anything worth enjoying or loving is worth fighting for.
-	Life is measured in years, not days. You are acutely aware of the unfurling of years and the grand tapestry of history. Elves plan for the long term, and you are no different. “Enjoy the day; prepare for the year,” is a common elf saying that expresses this attitude. You might spend your days in song and drink easily enough, but all the while in the back of your mind, you watch a web of events unfold around you. You understand that an action now leads to a reaction—a change in the world—that might not become evident for years. When you adventure, you keep one eye on the future and your role in the grand scheme of events.
-	The strongest sword is guided with wisdom, not might. The best battles are those that are short, decisive, and as bloodless as possible. The elves are too few in number to wage wars of attrition, and they view risky tactics and frontal assaults as foolish at best. As an elf, you employ the most direct methods to defeat your enemy. Why waste time battling goblin patrols when the entire tribe will scatter with the death of its conquest-minded king? Keep the long-term view in mind, and settle all problems with quick, decisive resolution.
-	Tales and songs. The elves preserve their history through songs and tales told in the oral tradition. As a young elf, you would have heard and memorized these stories of great elf heroes, their legendary deeds, and the struggles of your people. You might draw on the nature, events, or themes of such stories for inspiration, or to express your elven point of view to your allies. </specific>
+            <specific name="Physical Qualities" > Elves are slender, athletic folk about as tall as humans. They have the same range of complexions as humans, tending more toward tan or brown hues. A typical elf &apos;s hair color is dark brown, autumn orange, mossy green, or deep gold. Elven ears are long and pointed, while an elf &apos;s eyes are vibrant blue, violet, or green. Elves favor a wild and loose look to their hair.	Elves mature at about the same rate as humans, but they show few effects of age past adulthood. The first sign of an elf &apos;s advancing age is typically a change in hair color—sometimes graying but usually darkening or taking on more autumnal hues. Most elves live to be well over two hundred years old and remain vigorous almost to the end. </specific>
+            <specific name="Playing" > When creating an elf adventurer, here are a few points to consider.	Protect all that is good and beautiful. The natural progression of the universe seems intent on destroying the fleeting grace of beauty, love, and peace. Thus, you must fight to ensure that these things survive. An elf might remain unmoved by the plight of a human city facing an orc invasion, even as an idyllic village of farmers in the horde&apos;s path spurs him to action. Elves appreciate beauty because their history has forced them to watch it gradually fade from the world. From the first days of the bitter fey war, through the rise and fall of a succession of worldly empires, the elves know all too well that anything worth enjoying or loving is worth fighting for.	Life is measured in years, not days. You are acutely aware of the unfurling of years and the grand tapestry of history. Elves plan for the long term, and you are no different. “Enjoy the day; prepare for the year,” is a common elf saying that expresses this attitude. You might spend your days in song and drink easily enough, but all the while in the back of your mind, you watch a web of events unfold around you. You understand that an action now leads to a reaction—a change in the world—that might not become evident for years. When you adventure, you keep one eye on the future and your role in the grand scheme of events.	The strongest sword is guided with wisdom, not might. The best battles are those that are short, decisive, and as bloodless as possible. The elves are too few in number to wage wars of attrition, and they view risky tactics and frontal assaults as foolish at best. As an elf, you employ the most direct methods to defeat your enemy. Why waste time battling goblin patrols when the entire tribe will scatter with the death of its conquest-minded king? Keep the long-term view in mind, and settle all problems with quick, decisive resolution.	Tales and songs. The elves preserve their history through songs and tales told in the oral tradition. As a young elf, you would have heard and memorized these stories of great elf heroes, their legendary deeds, and the struggles of your people. You might draw on the nature, events, or themes of such stories for inspiration, or to express your elven point of view to your allies. </specific>
             <specific name="Vision" > Low-light </specific>
             <specific name="Average Height" > 5&apos; 4&quot;-6&apos;0&quot; </specific>
             <specific name="Average Weight" > 130-170 lb. </specific>
@@ -846,10 +829,7 @@
             <specific name="Trait Package" > Enchantment School, Evocation School, Illusion School, Pyromancy School, Nethermancy School, Necromancy School </specific>
             <specific name="_DisplayName" > Wizard (Mage) </specific>
             <specific name="_Tags" > Essentials </specific>
-         A mage is a specialized wizard, a spellcaster who focuses on the tenets of a particular school of magic. This specialization makes each mage distinctive. After all, a mage who casts evocation spells presents a very different picture to the world from a mage who has mastered the art of illusion or enchantment.
-	Mages tend to approach arcane magic with a more scholarly bent than other wizards, and that&apos;s saying a lot. Don&apos;t expect to find adventuring mages hidden away in dusty towers, however. They hit the ground running, ready to explore every dungeon and ancient ruin in search of lore and knowledge that will increase their understanding of everything arcane—and thereby increase their personal power.
-	The ancient traditions of the schools have been handed down since the first mortals began to dabble in arcane magic. What started as techniques and methods of training between masters and apprentices eventually became more institutionalized, and eventually actual academies of arcane study sprang up in the world and even among the eladrin of the Feywild. In time, single towers devoted to a single arcane discipline gave way to grand academies where illusion magic was taught alongside evocation magic.
-	Today, where and how arcane magic is taught depends on where you happen to be. On the borderlands, in places such as Fallcrest, solitary mages pass on their knowledge to one or two apprentices at a time. In larger settlements, such as the city of Nera, academies are dedicated to the training of mages in all of the schools of magic.
+         A mage is a specialized wizard, a spellcaster who focuses on the tenets of a particular school of magic. This specialization makes each mage distinctive. After all, a mage who casts evocation spells presents a very different picture to the world from a mage who has mastered the art of illusion or enchantment.	Mages tend to approach arcane magic with a more scholarly bent than other wizards, and that&apos;s saying a lot. Don&apos;t expect to find adventuring mages hidden away in dusty towers, however. They hit the ground running, ready to explore every dungeon and ancient ruin in search of lore and knowledge that will increase their understanding of everything arcane—and thereby increase their personal power.	The ancient traditions of the schools have been handed down since the first mortals began to dabble in arcane magic. What started as techniques and methods of training between masters and apprentices eventually became more institutionalized, and eventually actual academies of arcane study sprang up in the world and even among the eladrin of the Feywild. In time, single towers devoted to a single arcane discipline gave way to grand academies where illusion magic was taught alongside evocation magic.	Today, where and how arcane magic is taught depends on where you happen to be. On the borderlands, in places such as Fallcrest, solitary mages pass on their knowledge to one or two apprentices at a time. In larger settlements, such as the city of Nera, academies are dedicated to the training of mages in all of the schools of magic.
          </RulesElement>
          <RulesElement name="Mage" type="Grants" internal-id="ID_INTERNAL_GRANTS_MAGE" charelem="57" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_CLASS_722 </specific>
@@ -1027,8 +1007,7 @@
             <specific name="Attack Type" > Ranged 20 </specific>
             <specific name="Target" > One or two creatures </specific>
             <specific name="Attack" > Intelligence vs. Reflex </specific>
-            <specific name="Hit" > 1d6 + Intelligence modifier lightning damage.
-Level 21: 2d6 + Intelligence modifier lightning damage. </specific>
+            <specific name="Hit" > 1d6 + Intelligence modifier lightning damage.Level 21: 2d6 + Intelligence modifier lightning damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
@@ -1046,8 +1025,7 @@ Level 21: 2d6 + Intelligence modifier lightning damage. </specific>
             <specific name="Attack Type" > Area burst 1 within 10 squares </specific>
             <specific name="Target" > Each creature in the burst </specific>
             <specific name="Attack" > Intelligence vs. Reflex </specific>
-            <specific name="Hit" > 1d6 + Intelligence modifier cold damage, and you can slide the target 1 square. 
-Level 21: 2d6 + Intelligence modifier cold damage. </specific>
+            <specific name="Hit" > 1d6 + Intelligence modifier cold damage, and you can slide the target 1 square. Level 21: 2d6 + Intelligence modifier cold damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
@@ -1129,22 +1107,7 @@ Level 21: 2d6 + Intelligence modifier cold damage. </specific>
             <specific name="Level" > 1 </specific>
             <specific name="_Tags" > Essentials </specific>
             <specific name="_CLASSNAME" > Mage </specific>
-         At the end of each of your extended rests, you can prepare encounter attack powers, daily attack powers, and utility powers from your spellbook. These are the powers that you can use during that day, in addition to your at-will attack powers, cantrips, and nonwizard powers, such as a racial power. If you do not prepare powers from your spellbook after an extended rest (for example, if you do not have access to your spellbook), you can use the same powers you had prepared on the previous day.
-	Find your level on the Spells Prepared per Day table. The row corresponding to your level indicates how many encounter attack powers, daily attack powers, and utility powers you are allowed to prepare each day. You cannot prepare more than one encounter attack power, daily attack power, or utility power of any given level on the same day. For example, a 14th-level mage who has taken the enigmatic mage paragon path can prepare four encounter attack powers per day. Her spellbook contains multiple encounter attack powers at various levels. She can prepare four powers from any of the levels, as long as none of the prepared powers are of the same level.
-
-SPELLS PREPARED PER DAY
-&lt;table&gt;Level	Encounter	Daily	Utility
-1	1	1	—
-2	1	1	1
-3-4	2	1	1
-5	2	2	1
-6	2	2	2
-7-8	3	2	2
-9	3	3	2
-10-15	3	3	3
-16-21	3	3	4
-22-30	3	3	5&lt;/table&gt;
-*Certain wizard paragon paths, such as the enigmatic mage, allow you to prepare one additional spell per day in certain cases.
+         At the end of each of your extended rests, you can prepare encounter attack powers, daily attack powers, and utility powers from your spellbook. These are the powers that you can use during that day, in addition to your at-will attack powers, cantrips, and nonwizard powers, such as a racial power. If you do not prepare powers from your spellbook after an extended rest (for example, if you do not have access to your spellbook), you can use the same powers you had prepared on the previous day.	Find your level on the Spells Prepared per Day table. The row corresponding to your level indicates how many encounter attack powers, daily attack powers, and utility powers you are allowed to prepare each day. You cannot prepare more than one encounter attack power, daily attack power, or utility power of any given level on the same day. For example, a 14th-level mage who has taken the enigmatic mage paragon path can prepare four encounter attack powers per day. Her spellbook contains multiple encounter attack powers at various levels. She can prepare four powers from any of the levels, as long as none of the prepared powers are of the same level.SPELLS PREPARED PER DAY&lt;table&gt;Level	Encounter	Daily	Utility1	1	1	—2	1	1	13-4	2	1	15	2	2	16	2	2	27-8	3	2	29	3	3	210-15	3	3	316-21	3	3	422-30	3	3	5&lt;/table&gt;*Certain wizard paragon paths, such as the enigmatic mage, allow you to prepare one additional spell per day in certain cases.
          </RulesElement>
          <RulesElement name="Spellbook" type="Internal" internal-id="ID_INTERNAL_INTERNAL_SPELLBOOK" charelem="85" legality="rules-legal" >
          </RulesElement>
@@ -1168,9 +1131,7 @@ SPELLS PREPARED PER DAY
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 20 </specific>
             <specific name="Target" > One creature </specific>
-            <specific name="Effect" > 2 + Intelligence modifier force damage.
-	Level 11: 3 + Intelligence modifier force damage.
-	Level 21: 5 + Intelligence modifier force damage. </specific>
+            <specific name="Effect" > 2 + Intelligence modifier force damage.	Level 11: 3 + Intelligence modifier force damage.	Level 21: 5 + Intelligence modifier force damage. </specific>
             <specific name="Special" > If the implement used with this power has an enhancement bonus, add that bonus to the damage. In addition, you can use this power as a ranged basic attack. </specific>
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" > 1 </specific>
@@ -1214,11 +1175,7 @@ SPELLS PREPARED PER DAY
       <LootTally>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
             <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="4" legality="rules-legal" >
-               <specific name="Full Text" > Cloth Armor (Basic Clothing)
-Description: Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.
-Weight: 4 lb.
-Cost: 1 gp.
-Type: Cloth </specific>
+               <specific name="Full Text" > Cloth Armor (Basic Clothing)Description: Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.Weight: 4 lb.Cost: 1 gp.Type: Cloth </specific>
                <specific name="Weight" > 4 </specific>
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
@@ -1237,11 +1194,7 @@ Type: Cloth </specific>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="93" legality="rules-legal" >
-               <specific name="Full Text" > Adventurer&apos;s Kit
-Category: Gear
-Price: 15 gp 
-Weight: 33 lb
-Description: This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin. </specific>
+               <specific name="Full Text" > Adventurer&apos;s KitCategory: GearPrice: 15 gp Weight: 33 lbDescription: This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin. </specific>
                <specific name="Weight" > 33 </specific>
                <specific name="Gold" > 15 </specific>
                <specific name="Category" > Gear </specific>
@@ -1251,14 +1204,7 @@ Description: This kit includes a backpack, a bedroll, flint and steel, a belt po
          </loot>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
             <RulesElement name="Quarterstaff" type="Weapon" internal-id="ID_FMP_WEAPON_10" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=10&amp;ftype=3" charelem="94" legality="rules-legal" >
-               <specific name="Full Text" > Quarterstaff
-Simple two-handed melee weapon
-Cost: 5 gp
-Damage: 1d8
-Proficient: +2
-Weight: 4 lb.
-Group: 
-Staff (In its most basic form, a staff is a long piece of wood or some other substance, roughly the same diameter along its whole length.). </specific>
+               <specific name="Full Text" > QuarterstaffSimple two-handed melee weaponCost: 5 gpDamage: 1d8Proficient: +2Weight: 4 lb.Group: Staff (In its most basic form, a staff is a long piece of wood or some other substance, roughly the same diameter along its whole length.). </specific>
                <specific name="Weight" > 4 </specific>
                <specific name="Gold" > 5 </specific>
                <specific name="Damage" > 1d8 </specific>
@@ -1572,8 +1518,7 @@ Staff (In its most basic form, a staff is a long piece of wood or some other sub
             <specific name="Attack Type" > Ranged 20 </specific>
             <specific name="Target" > One or two creatures </specific>
             <specific name="Attack" > Intelligence vs. Reflex </specific>
-            <specific name="Hit" > 1d6 + Intelligence modifier lightning damage.
-Level 21: 2d6 + Intelligence modifier lightning damage. </specific>
+            <specific name="Hit" > 1d6 + Intelligence modifier lightning damage.Level 21: 2d6 + Intelligence modifier lightning damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
@@ -1624,8 +1569,7 @@ Level 21: 2d6 + Intelligence modifier lightning damage. </specific>
             <specific name="Attack Type" > Area burst 1 within 10 squares </specific>
             <specific name="Target" > Each creature in the burst </specific>
             <specific name="Attack" > Intelligence vs. Reflex </specific>
-            <specific name="Hit" > 1d6 + Intelligence modifier cold damage, and you can slide the target 1 square. 
-Level 21: 2d6 + Intelligence modifier cold damage. </specific>
+            <specific name="Hit" > 1d6 + Intelligence modifier cold damage, and you can slide the target 1 square. Level 21: 2d6 + Intelligence modifier cold damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
@@ -1729,9 +1673,7 @@ Level 21: 2d6 + Intelligence modifier cold damage. </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 20 </specific>
             <specific name="Target" > One creature </specific>
-            <specific name="Effect" > 2 + Intelligence modifier force damage.
-	Level 11: 3 + Intelligence modifier force damage.
-	Level 21: 5 + Intelligence modifier force damage. </specific>
+            <specific name="Effect" > 2 + Intelligence modifier force damage.	Level 11: 3 + Intelligence modifier force damage.	Level 21: 5 + Intelligence modifier force damage. </specific>
             <specific name="Special" > If the implement used with this power has an enhancement bonus, add that bonus to the damage. In addition, you can use this power as a ranged basic attack. </specific>
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" > 1 </specific>

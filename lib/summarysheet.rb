@@ -1,7 +1,7 @@
 require 'rexml/document'
 include REXML
 
-class SummarySheet
+class Summary
   
   attr_reader :name
   attr_reader :level

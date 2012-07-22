@@ -11,7 +11,7 @@ Prawn::Document.generate("summary.pdf") do
   
   x = 0
   y = 700
-  
+  font_size 10
   filenames.each do |filename|
     sheet = Summary.new(File.new filename)
     
@@ -21,6 +21,7 @@ Prawn::Document.generate("summary.pdf") do
        ["Defenses"],
        ["AC", "FORT", "REF", "WILL"],
        [sheet.ac, sheet.fort, sheet.ref, sheet.will],
+       [sheet.initiative, "Initiative"],
        [sheet.passive_perception, "Passive Perception"],
        [sheet.passive_insight, "Passive Insight"]]
        

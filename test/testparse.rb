@@ -62,7 +62,7 @@ class TestParsing < Test::Unit::TestCase
         </CharacterSheet>
       </D20Character>"
           
-    @@summary = SummarySheet.new(document)
+    @@summary = Summary.new(document)
     
   end
   
